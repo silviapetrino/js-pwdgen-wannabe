@@ -11,6 +11,7 @@ const name = prompt("Inserisci il tuo nome");
 const surname = prompt("Inserisci il tuo cognome");
 const color = prompt("Dimmi il tuo colore preferito");
 
-const passwordResult = name + surname + color + 23;
+
+const passwordResult = name + surname + color + "23";
 
 document.getElementById('password').innerHTML =  passwordResult;
